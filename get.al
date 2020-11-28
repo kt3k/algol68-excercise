@@ -1,9 +1,8 @@
 BEGIN
   STRING a;
   STRING b;
-  get(stand in, a);
+  get(standin, a);
+  get(standin, b);
   print((a, newline));
-  print(("====", newline));
-  get(stand in, b);
   print((b, newline))
 END
